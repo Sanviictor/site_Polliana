@@ -1,27 +1,65 @@
-# SitePolliana
+📋 README - Site Dra. Poliana Paiva
+Sobre o Projeto
+Este projeto é um site institucional para a Dra. Poliana Paiva, especialista em odontologia preventiva e estética. O site tem como objetivo apresentar os serviços oferecidos, convênios aceitos, informações de contato, localização e depoimentos de pacientes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Além disso, este projeto é uma oportunidade de prática e desenvolvimento dos meus conhecimentos em Angular, focando em boas práticas de desenvolvimento, organização de código e design responsivo.
 
-## Development server
+O projeto é realizado em parceria com a Dra. Poliana, visando a melhoria contínua do site com base nos meus planos de estudo e nas necessidades reais da clínica.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Funcionalidades
+Apresentação da especialista com foto e descrição.
 
-## Code scaffolding
+Menu de navegação para seções: Sobre, Atendimento, Contato.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Lista dos serviços odontológicos com ícones ilustrativos.
 
-## Build
+Exibição dos convênios aceitos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Área para redes sociais e contatos.
 
-## Running unit tests
+Mapa de localização integrado.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Depoimentos de pacientes.
 
-## Running end-to-end tests
+Rodapé com direitos reservados e política de privacidade.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+🛠 Tecnologias Utilizadas
+-Angular
+-TypeScript
+-HTML5
+-CSS3
 
-## Further help
+📂 Estrutura do Projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+src/
+ ├── app/
+ │    ├── componentes/       # Componentes reutilizáveis
+ │    ├── app.component.*    # Componente principal
+ │    ├── app.config.ts      # Configurações globais
+ │    ├── app.routes.ts      # Definição de rotas
+ │
+ ├── assets/                 # Imagens, ícones e mídias
+ ├── styles.css              # Estilos globais
+ ├── index.html              # HTML principal
+ └── main.ts                 # Ponto de entrada da aplicação
+
+▶️ Como Rodar o Projeto
+
+´´´bash
+  npm install
+  ng serve
+´´´
+
+📌 Futuras Melhorias
+-Implementação de novas páginas e componentes
+-Integração com APIs externas
+-Responsividade para dispositivos móveis
+-Testes unitários e de integração
+-Otimização de SEO e performance
+
+📬 Contato
+Desenvolvido por: Victor Santos
+📧 Email: victoremanuel3000@gmail.com
+🔗 LinkedIn: www.linkedin.com/in/victor-emanuel-galvão-dos-santos-29a2b01a6
+💻 GitHub: Sanviictor
+
