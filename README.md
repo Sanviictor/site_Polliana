@@ -1,33 +1,43 @@
-📋 README - Site Dra. Poliana Paiva
-Sobre o Projeto
-Este projeto é um site institucional para a Dra. Poliana Paiva, especialista em odontologia preventiva e estética. O site tem como objetivo apresentar os serviços oferecidos, convênios aceitos, informações de contato, localização e depoimentos de pacientes.
+📋 Site Dra. Poliana Paiva
+📖 Sobre o Projeto
+Este projeto é um site institucional para a Dra. Poliana Paiva, especialista em odontologia preventiva e estética.
+O objetivo é apresentar os serviços oferecidos, convênios aceitos, informações de contato, localização e depoimentos de pacientes.
 
-Além disso, este projeto é uma oportunidade de prática e desenvolvimento dos meus conhecimentos em Angular, focando em boas práticas de desenvolvimento, organização de código e design responsivo.
+Além disso, o projeto é uma oportunidade para prática e desenvolvimento dos meus conhecimentos em Angular, com foco em:
 
-O projeto é realizado em parceria com a Dra. Poliana, visando a melhoria contínua do site com base nos meus planos de estudo e nas necessidades reais da clínica.
+Boas práticas de desenvolvimento
 
-Funcionalidades
-Apresentação da especialista com foto e descrição.
+Organização de código
 
-Menu de navegação para seções: Sobre, Atendimento, Contato.
+Design responsivo
 
-Lista dos serviços odontológicos com ícones ilustrativos.
+O site é desenvolvido em parceria com a Dra. Poliana, visando melhoria contínua com base nas necessidades reais da clínica e nos meus planos de estudo.
 
-Exibição dos convênios aceitos.
+🚀 Funcionalidades
+🧑‍⚕️ Apresentação da especialista com foto e descrição
 
-Área para redes sociais e contatos.
+📑 Menu de navegação para as seções: Sobre, Atendimento e Contato
 
-Mapa de localização integrado.
+🦷 Lista dos serviços odontológicos com ícones ilustrativos
 
-Depoimentos de pacientes.
+🏥 Exibição dos convênios aceitos
 
-Rodapé com direitos reservados e política de privacidade.
+🔗 Área para redes sociais e contatos
+
+🗺️ Mapa de localização integrado
+
+💬 Depoimentos de pacientes
+
+📄 Rodapé com direitos reservados e política de privacidade
 
 🛠 Tecnologias Utilizadas
--Angular
--TypeScript
--HTML5
--CSS3
+Angular
+
+TypeScript
+
+HTML5
+
+CSS3
 
 📂 Estrutura do Projeto
 
