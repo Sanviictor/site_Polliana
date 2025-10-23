@@ -1,0 +1,91 @@
+.servicos-section{
+background-color: #f3f3f3;
+
+}
+.tag{
+    margin: 0;
+    padding: 36px 0 0 0; /* top right bottom left */
+    font-size: 1.2rem;
+    color: #a0002a;
+    text-align: center;
+}
+
+.servicos-section h2{
+    margin: 0;
+    padding: 8px; /* top right bottom left */
+    font-size: 2rem;
+    text-align: center;
+}
+
+.servicos-section h3{
+    margin: 0;
+    padding: 8px; /* top right bottom left */
+    font-size: 1.5rem;
+    color: #666;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.card-container {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center; /* centraliza horizontalmente as colunas */
+  align-content: center;   /* centraliza verticalmente se houver várias linhas */
+  min-height: 50%;       /* garante centralização vertical */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* centraliza conteúdo */
+  text-align:left;  /* centraliza texto */
+  max-width: 350px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column; /* ícone em cima, título embaixo */
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.card-header img {
+  width: 28px;
+  height: 28px;
+  background-color: #a0002a; /* bordô */
+  border-radius: 12%; /* deixa circular */
+  padding: 10px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-body p {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
