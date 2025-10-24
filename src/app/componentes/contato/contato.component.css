@@ -1,0 +1,131 @@
+ .contatos-section {
+    display: flex;
+    background-color: #a0002a;
+    color: #fff;
+    flex-direction: column; /* muda para row em telas maiores */
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+@media (min-width: 900px) {
+    .contatos-section {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .contatos-texto, .contatos-info, .mensagem-form {
+        flex: 1;
+    }
+}
+
+.contatos-texto h1, h3{
+   font-weight: lighter;
+}
+
+.contatos-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+
+}
+
+.estilo-botao{
+   margin: 10px;
+  text-align: center;
+  width: 160px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 50px; /* Borda oval */
+  background-color: #c96781; /* Bordô escuro */
+  color: #ffffff; /* Texto branco */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card{
+   display: flex;
+   align-items: center;
+   gap:25px;
+   margin:10px;
+   cursor: pointer; /* indica que é clicável */
+   transition: transform 0.3s ease, box-shadow 0.3s ease; /* suaviza a animação */
+}
+
+
+/* efeito ao passar o mouse */
+.card:hover {
+  transform: translateX(10px) ; /* move 10px para a direita */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* dá um leve destaque */
+}
+
+.card img{
+   width: 35px;
+   border-radius: 16%;
+   padding: 10px;
+   background-color: #c96781;
+
+}
+
+.card-texto{
+   font-size: medium;
+   font-weight: normal;
+}
+
+.mensagem-form {
+   width: 500px;
+    background-color: #ffffff;
+    color: #000;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+    max-width: 600px;
+}
+
+.mensagem-form h2 {
+   font-weight: lighter;
+   color: #3f3f3f;
+    margin-bottom: 20px;
+}
+
+.mensagem-form label{
+   color: #313131;
+   font-weight: lighter;
+   font-size: 0.8rem;
+}
+
+.mensagem-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mensagem-form input,
+.mensagem-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 95%;
+}
+
+.mensagem-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.mensagem-form button {
+    background-color: #a0002a;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.mensagem-form button:hover {
+    background-color: #c96781;
+}
