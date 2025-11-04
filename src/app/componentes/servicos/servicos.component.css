@@ -87,7 +87,41 @@ width: 100%;
 }
 
 @media (max-width: 768px) {
+  .servicos-section {
+    padding: 2.86rem;
+  }
+
+  .servicos-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .servicos-section h3 {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
   .card-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* apenas uma coluna */
+    gap: 1.5rem;
+  }
+
+  .card {
+    max-width: 90%;
+    margin: 0 auto; /* centraliza o card */
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-header {
+    align-items: center;
+  }
+
+  .card-header img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .card-body p {
+    font-size: 0.9rem;
   }
 }

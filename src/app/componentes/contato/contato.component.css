@@ -9,123 +9,205 @@
 }
 
 @media (min-width: 900px) {
-    .contatos-section {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    .contatos-texto, .contatos-info, .mensagem-form {
-        flex: 1;
-    }
+  .contatos-section {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .infos, .mensagem {
+    flex: 1;
+  }
+
+  .mensagem {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.contatos-texto h1, h3{
-   font-weight: lighter;
+/* ====== Textos e botões ====== */
+.contatos-texto h1,
+.contatos-texto h3 {
+  font-weight: lighter;
+  text-align: center;
 }
 
-.contatos-info{
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-
-}
-
-.estilo-botao{
-   margin: 0.625rem;
+.estilo-botao {
+  margin: 0.625rem 0;
   text-align: center;
   width: 10rem;
   padding: 0.625rem 0;
   border: none;
-  border-radius: 3.125rem; /* Borda oval */
-  background-color: #c96781; /* Bordô escuro */
-  color: #ffffff; /* Texto branco */
+  border-radius: 3.125rem;
+  background-color: #c96781;
+  color: #ffffff;
   font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.card{
-   display: flex;
-   align-items: center;
-   gap: 1.563rem;
-   margin: 0.625rem;
-   cursor: pointer; /* indica que é clicável */
-   transition: transform 0.3s ease, box-shadow 0.3s ease; /* suaviza a animação */
+/* ====== Cards ====== */
+.contatos-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  width: 100%;
 }
 
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.563rem;
+  margin: 0.625rem 0;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-/* efeito ao passar o mouse */
 .card:hover {
-  transform: translateX(0.625rem) ; /* move 10px para a direita */
-  box-shadow: 0 0.25rem 0.938rem rgba(0,0,0,0.2); /* dá um leve destaque */
+  transform: translateX(0.625rem);
+  box-shadow: 0 0.25rem 0.938rem rgba(0,0,0,0.2);
 }
 
-.card img{
-   width: 2.188rem;
-   border-radius: 16%;
-   padding: 0.625rem;
-   background-color: #c96781;
-
+.card img {
+  width: 2.188rem;
+  border-radius: 16%;
+  padding: 0.625rem;
+  background-color: #c96781;
+  margin-left: 0.625rem;
 }
 
-.card-texto{
-   font-size: medium;
-   font-weight: normal;
+.card-texto {
+  font-size: medium;
+  font-weight: normal;
 }
 
+/* ====== Formulário ====== */
 .mensagem-form {
-    width: 31.25rem;
-    background-color: #ffffff;
-    color: #000;
-    padding: 1.25rem;
-    border-radius: 0.75rem;
-    margin: 1.25rem;
-    max-width: 37.5rem;
+  background-color: #ffffff;
+  color: #000;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  margin: 1.25rem;
+  max-width: 37.5rem;
+  width: 100%;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.15);
 }
 
 .mensagem-form h2 {
-   font-weight: lighter;
-   color: #3f3f3f;
-    margin-bottom: 1.25rem;
+  font-weight: lighter;
+  color: #3f3f3f;
+  margin-bottom: 1.25rem;
 }
 
-.mensagem-form label{
-   color: #313131;
-   font-weight: lighter;
-   font-size: 0.8rem;
+.mensagem-form label {
+  color: #313131;
+  font-weight: lighter;
+  font-size: 0.8rem;
 }
 
 .mensagem-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.938rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.938rem;
 }
 
 .mensagem-form input,
 .mensagem-form textarea {
-    padding: 0.625rem;
-    border: 0.063rem solid #ccc;
-    border-radius: 0.5rem;
-    font-size: 0.875rem;
-    width: 95%;
+  padding: 0.625rem;
+  border: 0.063rem solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  width: 100%;
 }
 
 .mensagem-form textarea {
-    resize: vertical;
-    min-height: 6.25rem;
+  resize: vertical;
+  min-height: 6.25rem;
 }
 
 .mensagem-form button {
-    background-color: #a0002a;
-    color: #fff;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+  background-color: #a0002a;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .mensagem-form button:hover {
-    background-color: #c96781;
+  background-color: #c96781;
+}
+
+/* ====== 📱 Responsividade para telas pequenas ====== */
+@media (max-width: 768px) {
+  .contatos-section {
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .contatos-texto h1 {
+    font-size: 1.4rem;
+  }
+
+  .contatos-texto h3 {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    gap: 1rem;
+  }
+
+  .card img {
+    width: 1.8rem;
+    padding: 0.5rem;
+  }
+
+  .mensagem-form {
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .mensagem-form h2 {
+    font-size: 1.1rem;
+  }
+
+  .mensagem-form input,
+  .mensagem-form textarea {
+    font-size: 0.8rem;
+  }
+
+  .mensagem-form button {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* ====== 📱 Extra pequeno (celulares muito estreitos) ====== */
+@media (max-width: 480px) {
+  .estilo-botao {
+    width: 8rem;
+    font-size: 0.75rem;
+  }
+
+  .card-texto h2 {
+    font-size: 0.9rem;
+  }
+
+  .card-texto p {
+    font-size: 0.75rem;
+  }
+
+  .mensagem-form {
+    padding: 0.8rem;
+  }
+
+  .mensagem-form h2 {
+    font-size: 1rem;
+  }
 }

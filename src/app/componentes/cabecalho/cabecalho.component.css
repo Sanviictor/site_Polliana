@@ -97,3 +97,56 @@ img{
 .agenda-botao i {
   font-size: 1.125rem;
 }
+
+@media (max-width: 768px) {
+  .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; /* ocupa toda a altura da tela */
+    width: 9rem; /* largura da sidebar */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0.125rem 0 0.125rem rgba(0, 0, 0, 0.1);
+    z-index: 10000;
+  }
+
+  .nome-cabecalho {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .abas-cabecalho {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .caixa_texto, .agenda-botao{
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  .agenda {
+    width: 100%;
+    justify-content: center;
+    margin-top: auto; /* empurra o botão para o final da sidebar */
+  }
+
+  /* desloca o conteúdo principal para o lado direito da sidebar */
+  main, section, .conteudo {
+    margin-left: 15.625rem;
+  }
+
+  /* garante que o body ocupe toda a altura da tela */
+  html, body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+}

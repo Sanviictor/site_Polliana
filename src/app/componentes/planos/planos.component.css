@@ -3,10 +3,8 @@
   background-color: #f3f3f3;
   text-align: center;
   padding: 2.5rem 0;
-  position: relative;
   box-sizing: border-box;
 }
-
 
 .linha {
   height: 0.188rem;
@@ -37,7 +35,7 @@
   justify-content: center;
   gap: 3.125rem;
   margin-top: 0.938rem;
-  flex-wrap: wrap; /* garante que se adapte a telas menores */
+  flex-wrap: wrap; /* adapta as imagens em telas menores */
 }
 
 .planos img {
@@ -51,4 +49,38 @@
 .planos img:hover {
   transform: scale(1.05);
   filter: saturate(1.5);
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+  .planos-section {
+    padding: 2.86rem;
+    box-sizing: content-box;
+  }
+
+  .linha {
+    width: 80%;
+  }
+
+  .planos {
+    gap: 1.5rem;
+  }
+
+  .planos img {
+    max-width: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container p {
+    font-size: 1.1rem;
+  }
+
+  .linha {
+    width: 90%;
+  }
+
+  .planos img {
+    max-width: 7rem;
+  }
 }

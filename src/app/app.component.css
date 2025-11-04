@@ -1,3 +1,16 @@
 body{
+    width: auto;
+    height: auto;
     background-color: #f3f3f3;
+}
+
+.conteudo-principal {
+  width: 100%;
+  transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .conteudo-principal {
+    margin-left: 9rem;
+  }
 }
