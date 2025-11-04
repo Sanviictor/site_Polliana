@@ -1,7 +1,7 @@
 .footer {
   background-color: #0f1b2b; /* tom escuro */
   color: #ffffff;
-  padding: 40px 20px 20px 20px;
+  padding: 2.5rem 1.25rem 1.25rem 1.25rem;
   font-family: Arial, sans-serif;
 }
 
@@ -9,42 +9,42 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
-  max-width: 1200px;
+  gap: 1.25rem;
+  max-width: 75rem;
   margin: 0 auto;
 }
 
 .footer-column {
-  flex: 1 1 200px;
-  min-width: 200px;
+  flex: 1 1 12.5rem;
+  min-width: 12.5rem;
 }
 
 .footer-logo {
     display: flex;
     align-items: center; /* alinha verticalmente imagem e texto */
-    gap: 10px; /* espaço entre a imagem e o texto */
-    margin-bottom: 15px;
+    gap: 0.625rem; /* espaço entre a imagem e o texto */
+    margin-bottom: 0.938rem;
 }
 
 .footer-logo img {
-    max-width: 80px; /* mantém a imagem proporcional */
+    max-width: 5rem; /* mantém a imagem proporcional */
     height: auto;
 }
 
 .logo-text h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #ffffff;
 }
 
 .logo-text span {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #bbbbbb;
 }
 
 .footer-column h4 {
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
   color: #ffffff;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .footer-column ul li {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .footer-column ul li a {
@@ -70,9 +70,9 @@
 
 .footer-bottom {
   text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
+  margin-top: 1.875rem;
+  font-size: 0.875rem;
   color: #888888;
-  border-top: 1px solid #222f44;
-  padding-top: 15px;
+  border-top: 0.063rem solid #222f44;
+  padding-top: 0.938rem;
 }

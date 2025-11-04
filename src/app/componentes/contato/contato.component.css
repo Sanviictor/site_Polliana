@@ -3,9 +3,9 @@
     background-color: #a0002a;
     color: #fff;
     flex-direction: column; /* muda para row em telas maiores */
-    gap: 30px;
+    gap: 1.875rem;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
 }
 
 @media (min-width: 900px) {
@@ -30,15 +30,15 @@
 }
 
 .estilo-botao{
-   margin: 10px;
+   margin: 0.625rem;
   text-align: center;
-  width: 160px;
-  padding: 10px 0;
+  width: 10rem;
+  padding: 0.625rem 0;
   border: none;
-  border-radius: 50px; /* Borda oval */
+  border-radius: 3.125rem; /* Borda oval */
   background-color: #c96781; /* Bordô escuro */
   color: #ffffff; /* Texto branco */
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -47,8 +47,8 @@
 .card{
    display: flex;
    align-items: center;
-   gap:25px;
-   margin:10px;
+   gap: 1.563rem;
+   margin: 0.625rem;
    cursor: pointer; /* indica que é clicável */
    transition: transform 0.3s ease, box-shadow 0.3s ease; /* suaviza a animação */
 }
@@ -56,14 +56,14 @@
 
 /* efeito ao passar o mouse */
 .card:hover {
-  transform: translateX(10px) ; /* move 10px para a direita */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* dá um leve destaque */
+  transform: translateX(0.625rem) ; /* move 10px para a direita */
+  box-shadow: 0 0.25rem 0.938rem rgba(0,0,0,0.2); /* dá um leve destaque */
 }
 
 .card img{
-   width: 35px;
+   width: 2.188rem;
    border-radius: 16%;
-   padding: 10px;
+   padding: 0.625rem;
    background-color: #c96781;
 
 }
@@ -74,19 +74,19 @@
 }
 
 .mensagem-form {
-   width: 500px;
+    width: 31.25rem;
     background-color: #ffffff;
     color: #000;
-    padding: 20px;
-    border-radius: 12px;
-    margin: 20px;
-    max-width: 600px;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    margin: 1.25rem;
+    max-width: 37.5rem;
 }
 
 .mensagem-form h2 {
    font-weight: lighter;
    color: #3f3f3f;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .mensagem-form label{
@@ -98,29 +98,29 @@
 .mensagem-form form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 .mensagem-form input,
 .mensagem-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
+    padding: 0.625rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
     width: 95%;
 }
 
 .mensagem-form textarea {
     resize: vertical;
-    min-height: 100px;
+    min-height: 6.25rem;
 }
 
 .mensagem-form button {
     background-color: #a0002a;
     color: #fff;
     border: none;
-    padding: 12px;
-    border-radius: 8px;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s ease;

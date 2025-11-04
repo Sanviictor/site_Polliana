@@ -1,6 +1,6 @@
 .servicos-section{
 background-color: #f3f3f3;
-padding-bottom: 50px;
+padding-bottom: 3.125rem;
 width: 100%;
 
 }
@@ -14,14 +14,14 @@ width: 100%;
 
 .servicos-section h2{
     margin: 0;
-    padding: 8px; /* top right bottom left */
+    padding: 0.5rem; /* top right bottom left */
     font-size: 2rem;
     text-align: center;
 }
 
 .servicos-section h3{
     margin: 0;
-    padding: 8px; /* top right bottom left */
+    padding: 0.5rem; /* top right bottom left */
     font-size: 1.5rem;
     color: #666;
     text-align: center;
@@ -30,9 +30,9 @@ width: 100%;
 
 .card-container {
   display: grid;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   grid-template-columns: repeat(3, auto);
-  gap: 20px;
+  gap: 1.25rem;
   justify-content: center; /* centraliza horizontalmente as colunas */
   align-content: center;   /* centraliza verticalmente se houver várias linhas */
   min-height: 50%;       /* garante centralização vertical */
@@ -40,31 +40,31 @@ width: 100%;
 
 .card {
   background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* centraliza conteúdo */
   text-align:left;  /* centraliza texto */
-  max-width: 350px;
+  max-width: 21.875rem;
 }
 
 .card-header {
   display: flex;
   flex-direction: column; /* ícone em cima, título embaixo */
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 }
 
 .card-header img {
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   background-color: #a0002a; /* bordô */
   border-radius: 12%; /* deixa circular */
-  padding: 10px;
+  padding: 0.625rem;
   object-fit: contain;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .card-header h4 {
