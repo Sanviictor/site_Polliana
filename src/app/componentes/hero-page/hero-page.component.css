@@ -55,6 +55,45 @@ section h2 {
   box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.25);
 }
 
+.container-botao {
+  margin: 0.625rem 0.625rem 0.625rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.800rem;
+}
+
+.botao {
+  display: flex;
+  align-items: center;      /* centraliza verticalmente */
+  justify-content: center;  /* centraliza horizontalmente */
+  gap: 0.6rem;              /* espaço entre ícone e texto */
+  background: #f8f8f8ff;
+  color: #6a001a;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.625rem 1.375rem;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: auto;              /* deixa o botão ajustar ao conteúdo */
+  min-width: 8rem;          /* evita que fique muito pequeno */
+  text-align: center;       /* garante centralização do texto */
+}
+
+
+.botao:hover {
+  transform: scale(1.08); /* aumenta 8% */
+  box-shadow: 0 0.25rem 0.938rem rgba(0,0,0,0.2);
+}
+
+.botao i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+}
+
 @media (max-width: 768px) {
   .hero-page {
     height: auto; /* deixa a altura se ajustar ao conteúdo */

@@ -120,7 +120,7 @@
   border: 0.063rem solid #ccc;
   border-radius: 0.5rem;
   font-size: 0.875rem;
-  width: 100%;
+  
 }
 
 .mensagem-form textarea {
@@ -146,7 +146,7 @@
 /* ====== 📱 Responsividade para telas pequenas ====== */
 @media (max-width: 768px) {
   .contatos-section {
-    padding: 2rem 1rem;
+    padding: 10rem;
     gap: 1.5rem;
   }
 
@@ -190,6 +190,12 @@
 
 /* ====== 📱 Extra pequeno (celulares muito estreitos) ====== */
 @media (max-width: 480px) {
+
+  .contatos-section {
+    padding: 3rem;
+    gap: 1.5rem;
+  }
+
   .estilo-botao {
     width: 8rem;
     font-size: 0.75rem;
