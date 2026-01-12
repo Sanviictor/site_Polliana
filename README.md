@@ -74,7 +74,7 @@ Desenvolvido por: Victor Santos
 
 📧 Email: victoremanuel3000@gmail.com
 
-🔗 LinkedIn: www.linkedin.com/in/victor-emanuel-galvão-dos-santos-29a2b01a6
+🔗 LinkedIn: www.linkedin.com/in/sanvictor
 
 💻 GitHub: [Sanviictor](https://github.com/Sanviictor)
 
