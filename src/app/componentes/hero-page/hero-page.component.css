@@ -7,7 +7,7 @@
   background-image: 
     linear-gradient(90deg, rgba(255,255,255,0.05) 0.094rem, transparent 0.063rem);
   background-size: 2.5rem 2.5rem; 
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +105,6 @@ section h2 {
     flex-direction: column; /* empilha o texto e a imagem */
     align-items: center;
     justify-content: center;
-    width: 100%;
     gap: 2rem; /* espaço entre texto e imagem */
   }
 
